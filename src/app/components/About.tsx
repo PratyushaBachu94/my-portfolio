@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Terminal, { ColorMode, TerminalOutput } from 'react-terminal-ui';
 
 export default function About() {
-    const [terminalLineData, setTerminalLineData] = useState([
+    const [terminalLineData] = useState([
         <><TerminalOutput>{`> 📍 Location: Dallas, TX`}</TerminalOutput><TerminalOutput>{`> 📧 Email: pratyusha.bachu@gmail.com`}</TerminalOutput><TerminalOutput>
             {`> 📄 Resume: `}
             <a className="underline text-blue-400" href="/files/PratyushaBachu.pdf" download>PratyushaBachu.pdf</a>

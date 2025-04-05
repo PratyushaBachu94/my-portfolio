@@ -18,7 +18,6 @@ type Project = {
     location,
     technologiesUsed,
     description,
-    link,
     clientLogo,
   }: Project) {
     return (
