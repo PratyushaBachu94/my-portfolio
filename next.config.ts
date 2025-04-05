@@ -7,5 +7,4 @@ const nextConfig: NextConfig = {
     unoptimized: true, // Disables image optimization for static sites
   },
 };
-
-export default nextConfig;
+module.exports = nextConfig;
