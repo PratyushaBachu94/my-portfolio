@@ -31,7 +31,7 @@ export default function Chatbot() {
       {/* Chatbot Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition"
+        className="bg-gray-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition"
       >
         💬
       </button>
