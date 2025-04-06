@@ -15,8 +15,8 @@ export default function About() {
             </TerminalOutput></>
     ]);
     return (
-        <section id="about" className="min-h-screen flex items-center justify-center bg-gray-100">
-            <div className="max-w-3xl text-center">
+        <section id="about" className="min-h-screen flex items-center justify-center bg-gray-100 overflow-x-hidden">
+            <div className="w-full max-w-full sm:max-w-3xl text-center">
                 {/* <h2 className="text-4xl font-bold mb-6">About Me</h2>
                 <p className="text-lg">
                     [Write a brief bio about yourself, your skills, and experience.]

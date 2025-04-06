@@ -1,9 +1,10 @@
 import './globals.css';
 import Navbar from './components/Navbar';
+import Chatbot from './components/Chatbot';
 
 export const metadata = {
-  title: 'Your Name | Portfolio',
-  description: 'Portfolio of [Your Name], a [Your Profession]',
+  title: 'Pratyusha Bachu| Portfolio',
+  description: 'Portfolio of Pratyusha Bachu, a software engineer',
 };
 
 export default function RootLayout({
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Chatbot />
       </body>
     </html>
   );
